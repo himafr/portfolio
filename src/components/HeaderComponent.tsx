@@ -9,7 +9,8 @@ function HeaderComponent() {
           <HeaderLink icon="" name="services" to="/services" />
           <HeaderLink icon="" name="projects" to="/projects" />
           <HeaderLink icon="" name="contact" to="/contact" />
-          <HeaderLink icon="" name="about me" to="/about" />
+          <HeaderLink icon="" name="about" to="/about" />
+          <HeaderLink icon="" name="ليه" to="/shit" />
         </ul>
            
         </div>

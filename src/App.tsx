@@ -5,7 +5,7 @@ import ServicesPage from "./pages/ServicesPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import AboutMePage from "./pages/AboutMePage";
 import ContactPage from "./pages/ContactPage";
-import NotFoundPage from "./pages/NotFoundPage";
+import NotFoundPage from "./pages/notfoundpage/NotFoundPage";
 
 
 function App() {
