@@ -3,7 +3,7 @@ import HeaderLink from "./HeaderLink"
 function HeaderComponent() {
     return (
         <div className="flex justify-between m-auto max-w-[1420px] md:mx-[235px] mx-0 mt-3">
-        <img className="logo w-14 md:w-[120px]"  src="svg/logo_white.svg"  alt="" />
+        <img className="logo w-14 md:w-[120px]"  src="svg/logo_white_h.svg"  alt="" />
         <ul className="flex items-center">
           <HeaderLink icon="" name="home" to="/" />
           <HeaderLink icon="" name="services" to="/services" />

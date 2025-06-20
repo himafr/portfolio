@@ -14,7 +14,7 @@ function LayoutPage() {
         <div className="particles-container" id="particles-container"></div>
     </div>
 
-    <div className="mx-[12px] md:mx-[30px] z-50 relative text-[8px] md:text-lg" >
+    <div className="mx-[12px] md:mx-[30px] z-50 relative text-[10px] md:text-lg" >
       <HeaderComponent />
       <Outlet />
       <FooterComponent />
