@@ -175,10 +175,13 @@ body {
   opacity: 0;
   pointer-events: none;
 }
-::-webkit-scrollbar {
-  width: 7px;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--color-primary);
-  border-radius: 10px;
+@media screen and (min-width:700px) {
+ 
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(29, 185, 84, 0.222) ;
+    border-radius: 10px;
+  }
 }
