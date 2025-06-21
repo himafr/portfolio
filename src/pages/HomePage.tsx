@@ -3,7 +3,7 @@ import TechComponent from "../components/TechComponent";
 function HomePage() {
   return (
     <div className="flex gap-6 items-center justify-between flex-col-reverse md:flex-row pt-10">
-      <div className="md:max-w-2/4">
+      <div className="md:max-w-2/4 relative bottom-16 md:static">
         <div className="md:text-4xl text-3xl  flex flex-col md:gap-11 gap-4">
           <div>
             Hi, It's
@@ -27,7 +27,7 @@ function HomePage() {
         </div>
       </div>
       <div className="w-2/4" >
-      <img  className="w-96 rounded-full object-cover m-auto" src="images/hema.jpg" alt="hema" />
+      <img  className="w-96 rounded-full object-cover m-auto relative left-[20vw] md:static" src="images/hema.jpg" alt="hema" />
       </div>
     </div>
   );
