@@ -1,6 +1,24 @@
 import ProjectCardComponent from "../components/ProjectCardComponent";
 
 function ProjectsPage() {
+    const listOfMyProjects : {
+    title: string;
+    imgSrc: string;
+    subInfo: string;
+    siteLink: string;
+}[]=[{
+         title: "Portfolio",
+  imgSrc: "images/portfolio.png",
+  subInfo: "my portfolio ",
+  siteLink: "https://hema-sallem-portfolio.netlify.app",
+    },
+    {
+        siteLink:"https://mofie-tv.netlify.app",
+          imgSrc:"https://images.unsplash.com/photo-1499856871958-5b9627545d1a",
+          title:"Mofie",
+          subInfo:"mofie app where you see your favorite movies and shows ",
+    }
+]
   return (
     <div className=" flex flex-wrap gap-3 gap-x-12 items-center justify-around overflow-auto mt-[3vh] h-[80vh]">
       {/* <section id="features"
@@ -20,42 +38,14 @@ function ProjectsPage() {
       </div>
 
       <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-2 sm:grid-cols-2 lg:grid-cols-3">
-        <ProjectCardComponent
-          siteLink="https://mofie-tv.netlify.app"
-          imgSrc="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
-          title="Mofie"
-          subInfo="mofie app where you see your favorite movies and shows "
-        />
-        <ProjectCardComponent
-          siteLink="https://mofie-tv.netlify.app"
-          imgSrc="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
-          title="Mofie"
-          subInfo="mofie app where you see your favorite movies and shows "
-        />
-        <ProjectCardComponent
-          siteLink="https://mofie-tv.netlify.app"
-          imgSrc="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
-          title="Mofie"
-          subInfo="mofie app where you see your favorite movies and shows "
-        />
-        <ProjectCardComponent
-          siteLink="https://mofie-tv.netlify.app"
-          imgSrc="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
-          title="Mofie"
-          subInfo="mofie app where you see your favorite movies and shows "
-        />
-        <ProjectCardComponent
-          siteLink="https://mofie-tv.netlify.app"
-          imgSrc="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
-          title="Mofie"
-          subInfo="mofie app where you see your favorite movies and shows "
-        />
-        <ProjectCardComponent
-          siteLink="https://mofie-tv.netlify.app"
-          imgSrc="https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
-          title="Mofie"
-          subInfo="mofie app where you see your favorite movies and shows "
-        />
+       {listOfMyProjects.map((el,index)=><ProjectCardComponent 
+       imgSrc={el.imgSrc}
+       siteLink={el.siteLink}
+       subInfo={el.subInfo}
+       title={el.title}
+       key={index}
+       />)}
+       
       </div>
 
       {/* </section> */}
