@@ -16,6 +16,7 @@
   --color-darker: #121212;
   --color-dark: #191414;
   --color-light-dark: #b3b3b3;
+  --color-deep:#2c2c2c;
 }
 body {
   background-color: var(--color-dark);

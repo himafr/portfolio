@@ -15,7 +15,7 @@ function ProjectCardComponent({ title, subInfo, imgSrc, siteLink }: CardTypes) {
       <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
       <h3 className="z-10 mt-3 text-3xl font-bold text-white hover:text-primary ">
         <a href={siteLink} className="flex" target="_blank">
-          <p className="pr-2">{title}</p> <img src="svg/link.svg" width={18} alt="" />{" "}
+          <p className="pr-2">{title}</p> <img src="svg/link.svg" width={18} alt="icon" />
         </a>
       </h3>
       <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
