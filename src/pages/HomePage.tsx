@@ -27,7 +27,7 @@ function HomePage() {
         </div>
       </div>
       <div className="w-2/4" >
-      <img  className="w-96 rounded-full object-cover m-auto relative left-[20vw] md:static" src="images/hema.jpg" alt="hema" />
+      <img  className="w-96 rounded-full object-cover m-auto relative left-[20vw] md:static" src="images/hema_grad.png" alt="hema" />
       </div>
     </div>
   );
