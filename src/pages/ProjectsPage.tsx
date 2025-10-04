@@ -17,6 +17,12 @@ function ProjectsPage() {
           imgSrc:"https://images.unsplash.com/photo-1499856871958-5b9627545d1a",
           title:"Mofie",
           subInfo:"mofie app where you see your favorite movies and shows ",
+    },
+    {
+        siteLink:"https://my-world-wide.netlify.app",
+          imgSrc:"/images/worldWide.png",
+          title:"world wide",
+          subInfo:"add the cities you are visited before  ",
     }
 ]
   return (

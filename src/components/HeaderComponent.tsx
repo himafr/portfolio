@@ -2,7 +2,7 @@ import HeaderLink from "./HeaderLink"
 
 function HeaderComponent() {
     return (
-        <div className="flex justify-between m-auto max-w-[1420px] md:mx-[235px] mx-0 mt-3">
+        <div className="flex justify-between items-center m-auto max-w-[1420px] md:mx-[235px] mx-0 mt-3">
         <img className="logo w-14 md:w-[120px]"  src="svg/logo_white_h.svg"  alt="" />
         <ul className="flex items-center">
           <HeaderLink icon="" name="home" to="/" />
@@ -11,7 +11,7 @@ function HeaderComponent() {
           <HeaderLink icon="" name="contact" to="/contact" />
           <HeaderLink icon="" name="about" to="/about" />
         </ul>
-           
+           <div ><a href="https://github.com/himafr" target="_blank" ><img  className="w-4 md:w-6" src="/svg/github.svg" alt="GitHub" /> </a></div>
         </div>
     )
 }
