@@ -6,11 +6,18 @@ function ProjectsPage() {
     imgSrc: string;
     subInfo: string;
     siteLink: string;
-}[]=[{
-         title: "Portfolio",
-  imgSrc: "images/portfolio.png",
-  subInfo: "my portfolio ",
-  siteLink: "https://hema-sallem-portfolio.netlify.app",
+}[]=[
+  {
+         title: "The wild oasis",
+  imgSrc: "images/theWild.png",
+  subInfo: "The Wild Oasis dashboard ",
+  siteLink: "https://hema-the-wild-oasis.vercel.app/",
+    },
+    {
+      title: "Ruka Habits",
+      imgSrc: "images/habits.png",
+      subInfo: "Habits tracker App react native ",
+      siteLink: "https://himafr.github.io/Ruka-habits/",
     },
     {
         siteLink:"https://mofie-tv.netlify.app",
@@ -23,7 +30,13 @@ function ProjectsPage() {
           imgSrc:"/images/worldWide.png",
           title:"world wide",
           subInfo:"add the cities you are visited before  ",
-    }
+    },
+    {
+        title: "Portfolio",
+  imgSrc: "images/portfolio.png",
+  subInfo: "my portfolio ",
+  siteLink: "https://hema-sallem-portfolio.netlify.app",
+    },
 ]
   return (
     <div className=" flex flex-wrap gap-3 gap-x-12 items-center justify-around overflow-auto mt-[3vh] h-[80vh]">
